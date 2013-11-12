@@ -1,0 +1,26 @@
+{
+  "name": "getbypath",
+  "version": "0.0.1",
+  "description": "Get data from a JSON object by path.",
+  "main": "./lib/getbypath.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chovy/getbypath.git"
+  },
+  "keywords": [
+    "JSON",
+    "path",
+    "data",
+    "object",
+    "index",
+    "lookup"
+  ],
+  "author": "Anthony Ettinger (chovy)",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
+}
