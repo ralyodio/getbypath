@@ -9,7 +9,7 @@ Get data from a JSON object by path.
 
 ## Usage
 
-    var getByPath = require('./lib/getbypath.js');
+    var getByPath = require('getbypath');
     var obj = { foo: { bar: { baz: 'thedata', biz: ['one', 'two'] }}};
     var bar = getByPath(obj, 'foo.bar.baz');
 
