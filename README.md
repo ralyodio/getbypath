@@ -41,3 +41,13 @@ Get data from a JSON object by path.
         }
     }
     */
+
+## Tests
+
+Install devDependencies
+
+    npm install
+
+Run tests
+
+    npm test
