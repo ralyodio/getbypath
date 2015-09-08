@@ -1,6 +1,6 @@
 {
   "name": "getbypath",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get data from a JSON object by path.",
   "main": "./lib/getbypath.js",
   "scripts": {
