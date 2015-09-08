@@ -4,11 +4,15 @@
   "description": "Get data from a JSON object by path.",
   "main": "./lib/getbypath.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha test/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:chovy/getbypath.git"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.1"
   },
   "keywords": [
     "JSON",
